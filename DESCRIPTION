@@ -15,3 +15,5 @@ BugReports: https://github.com/kfkiernan/ussie/issues
 Imports: 
     dplyr,
     tibble
+Suggests: 
+    engsoccerdata
