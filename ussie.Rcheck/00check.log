@@ -1,0 +1,9 @@
+* using log directory ‘/Users/kevinkiernan/ussie/ussie.Rcheck’
+* using R version 4.2.1 (2022-06-23)
+* using platform: x86_64-apple-darwin17.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘ussie/DESCRIPTION’ ... ERROR
+Required fields missing or empty:
+  ‘Author’ ‘Maintainer’
+* DONE
+Status: 1 ERROR

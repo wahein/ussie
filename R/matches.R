@@ -26,5 +26,9 @@ uss_make_matches <- function(data_engsoc, country) {
       goals_home = as.integer(hgoal),
       goals_visitor = as.integer(vgoal)
     )
+
+  if(country == 'USA'){
+    print('USA')
+  }
   result
 }
