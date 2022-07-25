@@ -4,6 +4,8 @@
 # ussie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/kfkiernan/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kfkiernan/ussie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to make it easy to work with European soccer data.
