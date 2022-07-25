@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ussie
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of ussie is to make it easy to work with European soccer data.
+
+## Installation
+
+You can install the development version of ussie from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("kfkiernan/ussie")
+```
+
+## Example
+
+This is a basic example of cleaning the Italian data:
+
+```{r example}
+library(ussie)
+## basic example code
+uss_make_matches(engsoccerdata::italy,"Italy")
+```
+
